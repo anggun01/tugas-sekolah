@@ -1,0 +1,132 @@
+<?php
+$koneksi = ("localhost","root","","portofolio2")
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section id="home">
+		<nav class="navbar navbar-expand-lg navbar-light  ">
+			<div class="container-fluid">
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="margin navbar-margin ms-auto me-5" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				
+				  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+				  <a class="nav-link" href="#about">About</a>
+				  <a class="nav-link" href="#galery">Galery</a>
+				  <a class="nav-link" href="#contact">Contact</a>
+			
+				</div>
+			  </div>
+			</div>
+		  </nav>
+
+		  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path xmlns="http://www.w3.org/2000/svg" fill="#ff69b4" fill-opacity="1" d="M 0 224 L 48 224 C 96 224 192 224 288 197.3 C 384 171 480 117 576 128 C 672 139 768 213 864 256 C 960 299 1056 309 1152 277.3 C 1248 245 1344 171 1392 133.3 L 1440 96 L 1440 0 L 1392 0 C 1344 0 1248 0 1152 0 C 1056 0 960 0 864 0 C 768 0 672 0 576 0 C 480 0 384 0 288 0 C 192 0 96 0 48 0 L 0 0 Z" /></svg>
+
+
+<footer id="footer">
+	<section class="jumbotron text-center">
+        <img src="anggun.jpg" alt="Arif" width="200" align="middle"/>	
+		<p>halo, saya alsyifa anggun</p>
+</footer>
+<footer>
+	<section id="about">
+		<div class="container">
+		  <div class="row text-center">
+			<div class="col">
+			  <h2>About Me</h2>
+			</div>
+			
+			<div class="row justify-content-center mt-5">
+			  <div class="col-md-5 mt-5">
+				<p>perkenalkan nama saya alsyifa anggun hary saputri saya lahir pada tanggal 15 oktober 2004 dan sekarang umur saya 16 tahun, hobi saya yaitu menulis puisi, membaca buku, dan menonton film. mata pelajaran yang saya sukai adalah bahasa inggris dan bahasa indonesia. saya bersekolah di smk taruna bhakti dan sekarang saya berada di tahun kedua smk. saya mengambil jurusan rekayasa perangkat lunak</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+</footer>
+<footer>
+	<section id="contact">
+		<div class="container">
+		  <div class="row text-center">
+			<div class="col">
+			  <h2>Contact Me</h2>
+			</div>
+
+		  </div>
+		  <div class="row justify-content-center">
+			<div class="col-md-6">
+	  
+			  <form>
+				<div class="mb-3">
+				  <label for="exampleInputEmail1" class="form-label">Nama Lengkap</label>
+				  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="name">
+				</div>
+				<div class="mb-3">
+				  <label for="email" class="form-label">Email</label>
+				  <input type="email" class="form-control" id="email" aria-describedby="email">
+				</div>
+				<div class="mb-3">
+				  <label for="pesan" class="form-label">Pesan</label>
+				  <textarea class="form-control" id="pesan" rows="3"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			  </form>
+			</div>
+		  </div>
+		</div>
+		</div>
+
+</footer>
+
+<footer> 
+	<div class="responsive">
+		  <div class="gallery">
+		      <img src="pict 1.jpg"  width="100">
+		    </a>
+		    <div class="desc">Foto 1</div>
+		  </div>
+		</div>
+		
+		
+		<div class="responsive">
+		  <div class="gallery">
+		      <img src="pict2.jpg"  width="100">
+		    </a>
+		    <div class="desc">foto 2</div>
+		  </div>
+		</div>
+		
+		<div class="responsive">
+		  <div class="gallery">
+		      <img src="pict3.jpg"  width="100">
+		    </a>
+		    <div class="desc">Foto 3</div>
+		  </div>
+		</div>
+		
+		<div class="responsive">
+		  <div class="gallery">
+		      <img src="pict4.jpg"  width="100">
+		    </a>
+		    <div class="desc">Foto 4</div>
+		  </div>
+		</div>
+		
+		<div class="clearfix"></div>
+		
+</footer>
+
+<script type="text/javascript">
+	const projectName = 'portfolio';
+localStorage.setItem('example_project', 'Personal Portfolio');
+</script>
+</body>
+</html>
